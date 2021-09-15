@@ -1,3 +1,9 @@
-body {
-  background-color: aliceblue;
+@import './modules/_core/styles/core.scss';
+
+html {
+  position: relative;
+
+  body {
+    min-height: 100vh;
+  }
 }
